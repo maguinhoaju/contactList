@@ -87,24 +87,17 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(
                     contacts[index].name ?? "",
-                    style: TextStyle(
-                      fontSize: 22,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     contacts[index].email ?? "",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.normal,
-                    ),
+                    style:
+                        TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
                   ),
                   Text(
                     contacts[index].phone ?? "",
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.normal,
-                    ),
+                    style:
+                        TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
                   ),
                 ],
               ),
